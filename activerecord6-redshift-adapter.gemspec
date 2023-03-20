@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.files = Dir.glob(['LICENSE', 'README.md', 'lib/**/*.rb'])
   s.require_path = 'lib'
 
-  s.required_ruby_version = '>= 3.2.1'
-  s.add_dependency 'pg', ['>= 1.4.6']
+  s.required_ruby_version = '>= 2.6.8'
+  s.add_dependency 'pg', ['>= 1.2.3']
   s.add_dependency 'activerecord', ['>= 7.0.0']
 end
